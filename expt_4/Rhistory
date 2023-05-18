@@ -1,0 +1,143 @@
+Dataset = read_csv('data.csv')
+Dataset = read_csv('C:\Users\User\OneDrive\Desktop\data-main\data-main\Dataset.csv')
+Dataset = read_csv('C:\Users\User\OneDrive\Desktop\data-main\data-main\Dataset.csv')
+Dataset = read_csv('data.csv')
+Dataset = read_csv('Dataset.csv')
+Dataset = read_csv('Dataset.csv')
+Dataset = read_csv('Dataset.csv')
+Dataset = read_csv('C:\Users\User\OneDrive\Desktop\data-main\data-main\Dataset.csv')
+Dataset = read_csv('C:\Users\User\OneDrive\Documents\data\Dataset.csv')
+Dataset = read_csv('C:\Users\User\OneDrive\Documents\data\Dataset.csv')
+Dataset = read_csv('Dataset.csv')
+Dataset = read_csv('Dataset.csv')
+Dataset = read_csv('C:\Users\User\OneDrive\Documents\data\Dataset.csv')
+Dataset = read_csv('~/data/Dataset.csv')
+Dataset = read_csv('~/data/Dataset.csv')
+Dataset = read_csv("~/data/Dataset.csv")
+Dataset = read_csv("~/data/Dataset.csv")
+Dataset = read_csv('Dataset.csv')
+Dataset = read csv('Dataset.csv')
+Dataset = read_csv("~/data/Dataset.csv")
+Dataset = read_csv("~/data/Dataset.csv")
+Dataset = read_csv("~/data/Dataset.csv")
+Dataset = read_csv("~\data\Dataset.csv")
+Dataset = read_csv('C:/Users/User/OneDrive/Documents/data/Dataset.csv')
+Dataset = read_csv('~\data\Dataset.csv')
+Dataset = read.csv('~\data\Dataset.csv')
+Dataset = read.csv('C:/Users/User/OneDrive/Documents/data/Dataset.csv')
+view(Dataset)
+View(Dataset)
+Dataset$Age = ifelse(is.na(Dataset$Age), ave(Dataset$Age, FUN = function (x)mean(x, na.rm = TRUE)), Dataset$Age)
+View(Dataset)
+Dataset$Salary = ifelse(is.na(Dataset$Salary), ave(Dataset$Salary, FUN = function (x)mean(x, na.rm = TRUE)), Dataset$Salary)
+Dataset$Country = factor(Dataset$Country, levels = c('France','Spain','Germany'), labels = c(1.0, 2.0 , 3.0 ))
+Dataset$Purchased = factor(Dataset$Purchased,levels = c('No', 'Yes'), labels = c(0, 1)) Dataset$Purchased[is.na(Dataset$Purchased)] <- 0 as.factor(Dataset$Purchased)
+Dataset$Purchased = factor(Dataset$Purchased, levels = c('No', 'Yes'), labels = c(0, 1)) Dataset$Purchased[is.na(Dataset$Purchased)] <- 0 as.factor(Dataset$Purchased)
+Dataset$Purchased = factor(Dataset$Purchased, levels = c('No', 'Yes'), labels = c(0, 1)) Dataset$Purchased[is.na(Dataset$Purchased)] <- 0 as.factor(Dataset$Purchased)
+library(caTools)# required library for data splition set.seed(123) split = sample.split(Dataset$Purchased, SplitRatio = 0.8)# returns true if observation goes to the Training set and false if observation goes to the test set. #Creating the training set and test set separately training_set = subset(Dataset, split == TRUE) test_set = subset(Dataset, split == FALSE) training_set test_set
+install.packages("caTools")
+library(caTools)# required library for data splition set.seed(123) split = sample.split(Dataset$Purchased, SplitRatio = 0.8)# returns true if observation goes to the Training set and false if observation goes to the test set. #Creating the training set and test set separately training_set = subset(Dataset, split == TRUE) test_set = subset(Dataset, split == FALSE) training_set test_set
+library(caTools)# required library for data splition set.seed(123) split = sample.split(Dataset$Purchased, SplitRatio = 0.8)# returns true if observation goes to the Training set and false if observation goes to the test set. #Creating the training set and test set separately training_set = subset(Dataset, split == TRUE) test_set = subset(Dataset, split == FALSE) training_set test_set
+library(caTools)# required library for data splition set.seed(123) split = sample.split(Dataset$Purchased, SplitRatio = 0.8)# returns true if observation goes to the Training set and false if observation goes to the test set. #Creating the training set and test set separately training_set = subset(Dataset, split == TRUE) test_set = subset(Dataset, split == FALSE) training_set test_set
+library(caTools) set.seed(123) split = sample.split(Dataset$Purchased, SplitRatio = 0.8)  training_set = subset(Dataset, split == TRUE) test_set = subset(Dataset, split == FALSE)
+require(caTools)
+set.seed(123)
+split = sample.split(data$anycolumn, SplitRatio = 0.8)
+require(caTools)
+set.seed(123)
+split = sample.split(Dataset$Purschased, SplitRatio = 0.8)
+require(caTools)
+set.seed(123)
+split = sample.split(Dataset$Purchased, SplitRatio = 0.8)
+train = subset(Dataset, sample == TRUE)
+require(caTools)
+set.seed(123)
+split = sample.split(Dataset$Purchased, SplitRatio = 0.8)
+training = subset(Dataset, sample == TRUE)
+require(caTools)
+set.seed(123)
+split = sample.split(Dataset$Purchased, SplitRatio = 0.8)
+training_set = subset(Dataset, sample == TRUE)
+library(caTools)
+set.seed(123)
+split = sample.split(Dataset$Purchased, SplitRatio = 0.8)
+training_set = subset(Dataset, sample == TRUE)
+training_set[, 2:3] = scale(training_set[, 2:3]) test_set[, 2:3] = scale(test_set[, 2:3]) training_set test_set
+training_set[, 2:3] = scale(training_set[, 2:3])
+training_set[, 2:3] = scale(training_set[, 2:3])
+library(caTools)
+set.seed(123)
+split = sample.split(Dataset$Purchased, SplitRatio = 0.8)
+training_set = subset(Dataset, sample = TRUE)
+test_set  = subset(Dataset, sample = FALSE)
+View(test_set)
+View(training_set)
+training_set[, 2:3] = scale(training_set[, 2:3])
+test_set[, 2:3] = scale(test_set[, 2:3])
+training_set
+test_set
+barplot(airquality$Ozone,
+main = 'Ozone Concenteration in air',xlab = 'ozone levels', horiz = TRUE)
+barplot(airquality$Ozone,
+main = 'Ozone Concenteration in air',xlab = 'ozone levels', horiz = TRUE)
+barplot(airquality$Ozone, main = 'Ozone Concenteration in air',
+xlab = 'ozone levels', col ='blue', horiz = FALSE)
+data(airquality)
+hist(airquality$Temp, main ="La Guardia Airport's\
+Maximum Temperature(Daily)",
+xlab ="Temperature(Fahrenheit)",
+xlim = c(50, 125), col ="yellow",
+freq = TRUE)
+data(airquality)
+boxplot(airquality$Wind, main = "Average wind speed\
+at La Guardia Airport",
+xlab = "Miles per hour", ylab = "Wind",
+col = "orange", border = "brown",
+horizontal = TRUE, notch = TRUE)
+boxplot(airquality[, 0:4],
+main ='Box Plots for Air Quality Parameters')
+data(airquality)
+plot(airquality$Ozone, airquality$Month,
+main ="Scatterplot Example",
+xlab ="Ozone Concentration in parts per billion",
+ylab =" Month of observation ", pch = 19)
+data <- matrix(rnorm(50, 0, 5), nrow = 5, ncol = 5)
+# Column names
+colnames(data) <- paste0("col", 1:5)
+rownames(data) <- paste0("row", 1:5)
+# Draw a heatmap
+heatmap(data)
+View(airquality)
+data <- read.csv("worldcities.csv")
+data <- read.csv("worldcities.csv")
+df <- data.frame(data)
+# Load the required libraries
+library(maps)
+install.packages("maps")
+data <- read.csv("worldcities.csv")
+df <- data.frame(data)
+# Load the required libraries
+library(maps)
+map(database = "world")
+# marking points on map
+points(x = df$lat[1:500], y = df$lng[1:500], col = "Red")
+# Adding Titles and Labeling Axes to Plot
+cone <- function(x, y){
+sqrt(x ^ 2 + y ^ 2)
+}
+# prepare variables.
+x <- y <- seq(-1, 1, length = 30)
+z <- outer(x, y, cone)
+# plot the 3D surface
+# Adding Titles and Labeling Axes to Plot
+persp(x, y, z,
+main="Perspective Plot of a Cone",
+zlab = "Height",
+theta = 30, phi = 15,
+col = "orange", shade = 0.4)
+View(test_set)
+View(airquality)
+View(data)
+q()
+q()
+load("~/.RData")
